@@ -46,16 +46,19 @@
         "skillsSubtitle": "Through many years of experience in business management, product management and web development, I have developed key skills during my career.",
         "skillCards": [
           {
-            "skillTitle1": "Product Management",
-            "skillText1": "By constantly optimising internal processes and striving for a big picture of the product and its objectives, I manage my products by having a clear overview of all the moving pieces in order to maintain agility and speed to market."
+            "title": "Product Management",
+            "text": "By constantly optimising internal processes and striving for a big picture of the product and its objectives, I manage my products by having a clear overview of all the moving pieces in order to maintain agility and speed to market.",
+            "icon": "/assets/icons/product_management.svg"
           },
           {
-            "skillTitle2": "Full Stack development",
-            "skillText2": "From databases built in SQL or Mongo DB to websites like this one built in Reactjs, I can build full stack applications in javascript to bring best practice solutions to businesses en entrepreneurs."
+            "title": "Full Stack development",
+            "text": "From SQL or Mongo DB databases to websites like this one built in Svelte, I can build full stack applications in javascript to bring best practice solutions to businesses and entrepreneurs.",
+            "icon": "/assets/icons/web_development.svg"
           },
           {
-            "skillTitle3": "UX/UI and web design",
-            "skillText3": "With a keen interest in human psychology and its effects on UX and a strong belief in user centered design, I push to implement clean and efficient design in my products, based on a fine balance between intuition, innovation and user feedback."
+            "title": "UX/UI and web design",
+            "text": "With a keen interest in human psychology and its effects on UX and a strong belief in user centered design, I push to implement clean and efficient design in my products, based on a fine balance between intuition, innovation and user feedback.",
+            "icon": "/assets/icons/web_design.svg"
           }
         ]
     },
@@ -66,22 +69,26 @@
         {
           "title": "Full-stack Javascript Developer",
           "caption": "Jan 2021 - Present",
-          "content": "I am currently working as a full stack javascript developer for Salt in Stockholm. From front ends in ReactJS to databases in Mongo DB, I bring all my experience of product management and UX/UI to all my new projects."
+          "content": "I am currently working as a full stack javascript developer for Salt in Stockholm. From front ends in ReactJS to databases in Mongo DB, I bring all my experience of product management and UX/UI to all my new projects.",
+          "logo": "/assets/saltlogo.svg"
         },
         {
           "title": "Digital Product Manager",
           "caption": "Jan 2020 - Dec 2020",
-          "content": "As Product manager for Betao's User System/ invoicing tool, I was the bridge between the company's strategic vision and the two main products we created. I was responsible for identifying market needs and competitive opportunities while defining the product strategies, feature roadmaps and enhancing customer experience."
+          "content": "As Product manager for Betao's User System/ invoicing tool, I was the bridge between the company's strategic vision and the two main products we created. I was responsible for identifying market needs and competitive opportunities while defining the product strategies, feature roadmaps and enhancing customer experience.",
+          "logo": "/assets/portail-logo.svg"
         },
         {
           "title": "Digital Product Manager",
           "caption": "Feb 2019 - Jan 2020",
-          "content": "As a Product Manager for Simplitoo, I was responsible for analysing the market and competitive environment in order to define a clear product vision and growth strategy. In this role I got to move the company to a more user focused organisation, build consensus amongst stakeholders and further develop my technical knowledge in software engineering."
+          "content": "As a Product Manager for Simplitoo, I was responsible for analysing the market and competitive environment in order to define a clear product vision and growth strategy. In this role I got to move the company to a more user focused organisation, build consensus amongst stakeholders and further develop my technical knowledge in software engineering.",
+          "logo": "/assets/simplitoo.svg"
         },
         {
           "title": "Project Manager",
           "caption": "Jun 2017 - Feb 2019",
-          "content": "As a Project Manager I led a cross-functional team to the successful launch of Betao’s online solution to help entrepreneurs create their capital companies in France. During this project I introduced agile methodology and lean product development to the company with a view to accessing user orientated business opportunities enhancing productivity."
+          "content": "As a Project Manager I led a cross-functional team to the successful launch of Betao’s online solution to help entrepreneurs create their capital companies in France. During this project I introduced agile methodology and lean product development to the company with a view to accessing user orientated business opportunities enhancing productivity.",
+          "logo": "/assets/betao.svg"
         }
       ]
     },

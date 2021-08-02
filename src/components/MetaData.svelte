@@ -1,6 +1,6 @@
 <script lang="ts">
-  export let title: string = 'Full stack javascript developer and product manager.';
-  export let description: string = 'Full stack javascript developer and product manager.';
+  export let title = 'Full stack javascript developer and product manager.';
+  export let description = 'Full stack javascript developer and product manager.';
 </script>
 
 <svelte:head>

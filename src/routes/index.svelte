@@ -5,7 +5,8 @@
   import About from '../components/About.svelte';
   import Projects from '../components/Projects.svelte';
   import Stats from '../components/Stats.svelte';
-import Skills from '../components/Skills.svelte';
+  import Skills from '../components/Skills.svelte';
+  import Experience from '../components/Experience.svelte';
 </script>
 
 <MetaData />
@@ -15,3 +16,4 @@ import Skills from '../components/Skills.svelte';
 <Projects />
 <Stats />
 <Skills />
+<Experience />

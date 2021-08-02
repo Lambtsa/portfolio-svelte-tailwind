@@ -1,66 +1,29 @@
+<script lang="ts">
+  import en_language from '../languages/en.json';
+  const { experience } = en_language;
+</script>
 
-
-<section className="experiences">
-  <div className="experience__content">
-    <h2 className="experiences__title--main">{experience.experienceTitle}</h2>
-    <p className="experiences__text">Through many years of experience in business management, product management and web development, I have developed key skills during my career.</p>
+<section class="p-12 bg-black text-left">
+  <div class="space-y-2 mb-8">
+    <h2 class="text-3xl font-bold text-white max-w-sm">{experience.experienceTitle}</h2>
+    <p class="text-subtitle max-w-lg">Through many years of experience in business management, product management and web development, I have developed key skills during my career.</p>
   </div>
-  <div className="experiences__container">
-    <div className="experiences__card">
-      <img
-        height="60px"
-        width="60px"
-        className="experiences__img salt"
-        src="/assets/saltlogo.svg"
-        alt="" />
-      <div>
-        <h3 className="experiences__title">{experience.experience1.experienceTitle1}</h3>
-        <p className="experiences__caption">{experience.experience1.experienceCaption1}</p>
-        <p className="experiences__text">{experience.experience1.experienceContent1}</p>
-        <a className="experiences__link" target="_blank" rel="noreferrer" href="https://www.salt.dev/">{experience.experienceLink}</a>
-      </div>
-    </div>
-    <div className="experiences__card">
-      <img
-        height="60px"
-        width="60px"
-        className="experiences__img"
-        src="/assets/portail-logo.svg"
-        alt="" />
-      <div>
-        <h3 className="experiences__title">{experience.experience2.experienceTitle2}</h3>
-        <p className="experiences__caption">{experience.experience2.experienceCaption2}</p>
-        <p className="experiences__text">{experience.experience2.experienceContent2}</p>
-        <a className="experiences__link" target="_blank" rel="noreferrer" href="https://www.portail-autoentrepreneur.fr/">{experience.experienceLink}</a>
-      </div>
-    </div>
-    <div className="experiences__card">
-      <img
-        height="60px"
-        width="60px"
-        className="experiences__img"
-        src="/assets/simplitoo.svg"
-        alt="" />
-      <div>
-        <h3 className="experiences__title">{experience.experience3.experienceTitle3}</h3>
-        <p className="experiences__caption">{experience.experience3.experienceCaption3}</p>
-        <p className="experiences__text">{experience.experience3.experienceContent3}</p>
-        <a className="experiences__link" target="_blank" rel="noreferrer" href="https://www.simplitoo.fr/">{experience.experienceLink}</a>
-      </div>
-    </div>
-    <div className="experiences__card">
-      <img
-        height="60px"
-        width="60px"
-        className="experiences__img"
-        src="/assets/betao.svg"
-        alt="" />
-      <div>
-        <h3 className="experiences__title">{experience.experience4.experienceTitle4}</h3>
-        <p className="experiences__caption">{experience.experience4.experienceCaption4}</p>
-        <p className="experiences__text">{experience.experience4.experienceContent4}</p>
-        <a className="experiences__link" target="_blank" rel="noreferrer" href="https://www.betao.se/">{experience.experienceLink}</a>
-      </div>
-    </div>
+  <div class="grid grid-cols-2 gap-4">
+    {#each experience.experiences as job}
+        <div class="flex justify-center items-start gap-4 py-8">
+          <img
+            height="60px"
+            width="60px"
+            class=""
+            src={job.logo}
+            alt="" />
+          <div class="space-y-1">
+            <h3 class="text-2xl text-yellow-400 font-bold">{job.title}</h3>
+            <p class="text-subtitle text-opacity-40">{job.caption}</p>
+            <p class="text-subtitle">{job.content}</p>
+            <a class="text-yellow-400 underline hover:text-yellow-500" target="_blank" rel="noreferrer" href="https://www.salt.dev/">{experience.experienceLink}</a>
+          </div>
+        </div>
+    {/each}
   </div>
 </section>
