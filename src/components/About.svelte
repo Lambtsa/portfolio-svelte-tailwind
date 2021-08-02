@@ -13,7 +13,7 @@
       src={profile}
       alt="Tom Lamb in a dark t shirt and a flat cap" />
     <div class="flex flex-col justify-center space-y-2">
-      <h2 class="text-3xl font-bold text-yellow-400">{aboutMe.aboutMeTitle}</h2>
+      <h2 class="text-4xl font-bold text-yellow-400">{aboutMe.aboutMeTitle}</h2>
       <p class="text-subtitle font-light">{aboutMe.aboutMeParagraph1}</p>
       <p class="text-subtitle font-light">{aboutMe.aboutMeParagraph2}</p>
       <p class="text-subtitle font-light">{aboutMe.aboutMeParagraph3}</p>

@@ -7,8 +7,11 @@
   const { projects } = en_language;
 </script>
 
-<section class="bg-grey p-12">
-  <h2 class="text-center text-3xl font-bold text-yellow-400 mb-8">{projects.projectsTitle}</h2>
+<section class="bg-grey p-12 text-center">
+  <div class="space-y-2 mb-8">
+    <h2 class="text-center text-4xl font-bold text-yellow-400">{projects.title}</h2>
+    <p class="text-subtitle max-w-screen-sm mx-auto">{projects.subtitle}</p>
+  </div>
   <div class="container mx-auto grid grid-cols-2 gap-4 max-w-screen-lg">
     <a target="_blank" rel="noreferrer" href="https://ui-tasks.netlify.app/" class="p-8 flex flex-col items-center text-center space-y-2 rounded-2xl hover:bg-white hover:bg-opacity-20">
       <img

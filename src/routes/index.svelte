@@ -7,6 +7,8 @@
   import Stats from '../components/Stats.svelte';
   import Skills from '../components/Skills.svelte';
   import Experience from '../components/Experience.svelte';
+  import Apps from '../components/Apps.svelte';
+  import Footer from '../components/Footer.svelte';
 </script>
 
 <MetaData />
@@ -17,3 +19,5 @@
 <Stats />
 <Skills />
 <Experience />
+<Apps />
+<Footer />

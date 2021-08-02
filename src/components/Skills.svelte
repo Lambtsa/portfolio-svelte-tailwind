@@ -6,7 +6,7 @@
 
 <section class="p-12 bg-grey text-center">
   <div class="space-y-2 mb-12">
-    <h2 class="text-3xl font-bold text-yellow-400">{skills.skillsTitle}</h2>
+    <h2 class="text-4xl font-bold text-yellow-400">{skills.skillsTitle}</h2>
     <p class="text-subtitle max-w-screen-sm mx-auto">{skills.skillsSubtitle}</p>
   </div>
   <div class="max-w-screen-lg mx-auto grid grid-cols-3 gap-4">

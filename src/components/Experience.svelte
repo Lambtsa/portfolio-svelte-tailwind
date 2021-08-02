@@ -4,11 +4,11 @@
 </script>
 
 <section class="p-12 bg-black text-left">
-  <div class="space-y-2 mb-8">
-    <h2 class="text-3xl font-bold text-white max-w-sm">{experience.experienceTitle}</h2>
+  <div class="max-w-screen-lg mx-auto space-y-2 mb-8">
+    <h2 class="text-4xl font-bold text-white max-w-sm">{experience.experienceTitle}</h2>
     <p class="text-subtitle max-w-lg">Through many years of experience in business management, product management and web development, I have developed key skills during my career.</p>
   </div>
-  <div class="grid grid-cols-2 gap-4">
+  <div class="max-w-screen-lg mx-auto grid grid-cols-2 gap-4">
     {#each experience.experiences as job}
         <div class="flex justify-center items-start gap-4 py-8">
           <img
