@@ -1,6 +1,22 @@
 <script lang="ts">
-  import en_language from '../languages/en.json';
-  const { stats } = en_language;
+  const stats = [
+    {
+      "number": "4+",
+      "subtitle": "Years of Product Management"
+    },
+    {
+      "number": "18+",
+      "subtitle": "Months of javascript development"
+    },
+    {
+      "number": "2",
+      "subtitle": "SaaS Products launched"
+    },
+    {
+      "number": "10000+",
+      "subtitle": "Lines of code written"
+    }
+  ];
 </script>
 
 <section class="bg-black p-12">

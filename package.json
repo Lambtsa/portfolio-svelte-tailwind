@@ -3,17 +3,18 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"build": "svelte-kit build --verbose",
 		"preview": "svelte-kit preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "eslint --ignore-path .gitignore .",
 		"test": "jest src",
-		"test:watch": "npm run test -- --watch --verbose"
+		"test:watch": "npm run test -- --watch --verbose",
+    "deploy": "yarn build && scp -r ./dist/* root@206.189.108.250:/var/www/tom-lamb.com/html"
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.14.9",
-		"@sveltejs/adapter-static": "^1.0.0-next.14",
+		"@sveltejs/adapter-static": "^1.0.0-next.15",
 		"@sveltejs/kit": "next",
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/svelte": "^3.0.3",
@@ -31,6 +32,7 @@
 		"svelte": "^3.34.0",
 		"svelte-check": "^2.0.0",
 		"svelte-jester": "^1.7.0",
+		"svelte-preprocess": "^4.7.4",
 		"tailwindcss": "^2.2.4",
 		"tslib": "^2.0.0",
 		"typescript": "^4.0.0"
