@@ -1,5 +1,5 @@
 <script lang="ts">
-  import en_language from '../languages/en.json';
+  import en_language from '$languages/en.json';
   const { copyright } = en_language;
 </script>
 

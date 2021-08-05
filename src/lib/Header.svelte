@@ -1,9 +1,6 @@
 <!-- Scripting -->
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
-  import fr_flag from '/assets/fr.svg';
-  import en_flag from '/assets/en.svg';
-  import logo from '/assets/tom-lamb.svg';
 
   let is_scrolled = false;
 
@@ -36,15 +33,15 @@
       <img
         height="60px"
         width="60px"
-        src={logo}
+        src="$assets/images/tom-lamb.svg"
         alt="Tom Lamb logo lettering" />
     </a>
     <div class="flex justify-between items-center space-x-2">
       <button on:click={() => console.log('EN clicked')} id="en" type="button">
-        <img height="30px" width="30px" src={en_flag} alt="Union Jack icon with rounded corners" />
+        <img height="30px" width="30px" src="$assets/images/en.svg" alt="Union Jack icon with rounded corners" />
       </button>
       <button on:click={() => console.log('FR clicked')} id="fr" type="button">
-        <img height="30px" width="30px" src={fr_flag} alt="French flag icon with rounded corners" />
+        <img height="30px" width="30px" src="$assets/images/fr.svg" alt="French flag icon with rounded corners" />
       </button>
     </div>
   </nav>

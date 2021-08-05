@@ -1,16 +1,16 @@
 <script lang="ts">
-  import en_language from '../languages/en.json';
+  import en_language from '$languages/en.json';
   const { appsTitle } = en_language;
 
   const apps = [
-    '/assets/icons/js.svg',
-    '/assets/icons/figma.svg',
-    '/assets/icons/react.svg',
-    '/assets/icons/sass.svg',
-    '/assets/icons/nodejs.svg',
-    '/assets/icons/visual_studio.svg',
-    '/assets/icons/analytics.svg',
-    '/assets/icons/html5.svg'
+    '$assets/images/js.svg',
+    '$assets/images/figma.svg',
+    '$assets/images/react.svg',
+    '$assets/images/sass.svg',
+    '$assets/images/nodejs.svg',
+    '$assets/images/visual_studio.svg',
+    '$assets/images/analytics.svg',
+    '$assets/images/html5.svg'
   ]
 </script>
 

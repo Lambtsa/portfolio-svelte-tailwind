@@ -9,8 +9,8 @@ const config = {
     },
 		extend: {
       backgroundImage: theme => ({
-       'hero': "url('/assets/Background.webp')",
-       'about': "url('/assets/aboutMe_background.webp')"
+       'hero': "url('/images/Background.webp')",
+       'about': "url('/images/aboutMe_background.webp')"
       }),
       colors: {
         'subtitle': '#a8a39d',
