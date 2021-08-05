@@ -4,12 +4,12 @@
   import web_design from '$assets/images/web_design.svg';
 </script>
 
-<section class="p-12 bg-grey text-center">
+<section class="py-12 bg-grey text-center px-4">
   <div class="space-y-2 mb-12">
     <h2 class="text-4xl font-bold text-yellow-400">My Key Skills</h2>
     <p class="text-subtitle max-w-screen-sm mx-auto">Through many years of experience in business management, product management and web development, I have developed key skills during my career.</p>
   </div>
-  <div class="max-w-screen-lg mx-auto grid grid-cols-3 gap-4">
+  <div class="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
     <div class="flex flex-col gap-4 items-center p-4">
       <img
         height="60px"

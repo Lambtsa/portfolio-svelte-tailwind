@@ -20,7 +20,7 @@
 </script>
 
 <section class="bg-black p-12">
-  <div class="container mx-auto grid grid-cols-4 gap-4 text-center">
+  <div class="container mx-auto grid grid-cols-1 gap-8 lg:grid-cols-4 md:grid-cols-2 md:gap-4 text-center">
     {#each stats as stat}
       <div class="space-y-2">
         <h2 class="text-white font-bold text-5xl">{stat.number}</h2>

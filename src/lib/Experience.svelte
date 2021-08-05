@@ -5,12 +5,12 @@
   import betao from '$assets/images/betao.svg';
 </script>
 
-<section class="p-12 bg-black text-left">
+<section class="py-12 bg-black text-left px-4">
   <div class="max-w-screen-lg mx-auto space-y-2 mb-8">
     <h2 class="text-4xl font-bold text-white max-w-sm">Experience</h2>
     <p class="text-subtitle max-w-lg">Through many years of experience in business management, product management and web development, I have developed key skills during my career.</p>
   </div>
-  <div class="max-w-screen-lg mx-auto grid grid-cols-2 gap-4">
+  <div class="max-w-screen-lg mx-auto grid grid-cols-1§ md:grid-cols-2 gap-4">
     <div class="flex justify-center items-start gap-4 py-8">
       <img
         height="60px"

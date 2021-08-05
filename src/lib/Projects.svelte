@@ -6,12 +6,12 @@
 
 </script>
 
-<section class="bg-grey p-12 text-center">
+<section class="bg-grey py-12 text-center px-4">
   <div class="space-y-2 mb-8">
     <h2 class="text-center text-4xl font-bold text-yellow-400">My projects</h2>
     <p class="text-subtitle max-w-screen-sm mx-auto">Here are just a few of the apps I have worked on in the recent past.</p>
   </div>
-  <div class="container mx-auto grid grid-cols-2 gap-4 max-w-screen-lg">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 max-w-screen-lg">
     <a target="_blank" rel="noreferrer" href="https://ui-tasks.netlify.app/" class="p-8 flex flex-col items-center text-center space-y-2 rounded-2xl hover:bg-white hover:bg-opacity-20">
       <img
         height="60px"

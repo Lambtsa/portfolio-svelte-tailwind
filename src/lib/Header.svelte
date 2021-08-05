@@ -2,8 +2,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import tom_logo from "$assets/images/tom-lamb.svg"
-  import en_flag from "$assets/images/en.svg"
-  import fr_flag from "$assets/images/fr.svg"
+  // import en_flag from "$assets/images/en.svg"
+  // import fr_flag from "$assets/images/fr.svg"
 
   let is_scrolled = false;
 
