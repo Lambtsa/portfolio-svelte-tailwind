@@ -15,31 +15,25 @@ const config = {
 		target: '#svelte',
 		appDir: '_app',
     files: {
-			assets: 'assets',
+			assets: 'src/assets',
 			lib: 'src/lib',
 			routes: 'src/routes',
 			template: 'src/app.html'
 		},
-		paths: {
-			assets: 'static',
-			base: ''
-		},
-    // adapter: adapter({
-    //   // default options are shown
-    //   pages: "dist",
-    //   assets: "dist",
-    //   fallback: null
-    // })
+		// paths: {
+		// 	assets: '/',
+		// 	base: '/dist'
+		// },
     adapter: adapter({
 			// default options are shown
 			pages: 'dist',
-			assets: 'dist/static',
+			assets: 'dist',
 			fallback: null
 		}),
     vite: () => ({
 			resolve: {
 				alias: {
-					$languages: path.resolve('./src/languages')
+					$assets: path.resolve('./src/assets')
 				}
 			}
 		})

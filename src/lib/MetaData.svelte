@@ -9,7 +9,7 @@
   <meta name="description" content="Product Manager and frontend developer." />
   <meta name="robots" content="index, follow" />
   <meta name="googlebot" content="index, follow" />
-  <link rel="icon" type="image/svg+xml" href="/assets/tom-lamb.svg" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="apple-touch-icon" href="/logo192.png" />
   <link rel="manifest" href="/manifest.json" />
 
