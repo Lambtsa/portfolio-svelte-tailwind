@@ -39,13 +39,13 @@
         src={tom_logo}
         alt="Tom Lamb logo lettering" />
     </a>
-    <div class="flex justify-between items-center space-x-2">
+    <!-- <div class="flex justify-between items-center space-x-2">
       <button on:click={() => console.log('EN clicked')} id="en" type="button">
         <img height="30px" width="30px" src={en_flag} alt="Union Jack icon with rounded corners" />
       </button>
       <button on:click={() => console.log('FR clicked')} id="fr" type="button">
         <img height="30px" width="30px" src={fr_flag} alt="French flag icon with rounded corners" />
       </button>
-    </div>
+    </div> -->
   </nav>
 </header>
