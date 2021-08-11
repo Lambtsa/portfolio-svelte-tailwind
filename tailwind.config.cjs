@@ -8,10 +8,6 @@ const config = {
       'sans': ['Montserrat', 'sans-serif'],
     },
 		extend: {
-      backgroundImage: theme => ({
-       'hero': "url('src/assets/images/Background.webp')",
-       'about': "url('src/assets/images/aboutMe_background.webp')"
-      }),
       colors: {
         'subtitle': '#a8a39d',
         'grey': '#252422',
