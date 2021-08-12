@@ -8,7 +8,7 @@
 
 <section class="bg-grey py-12 text-center px-4">
   <div class="space-y-2 mb-8">
-    <h2 class="text-center text-4xl font-bold text-yellow-400">My projects</h2>
+    <h2 class="text-center text-4xl font-bold text-purple-500 inline px-4">My projects</h2>
     <p class="text-subtitle max-w-screen-sm mx-auto">Here are just a few of the apps I have worked on in the recent past.</p>
   </div>
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 max-w-screen-lg">

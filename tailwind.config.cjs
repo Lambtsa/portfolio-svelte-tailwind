@@ -10,9 +10,9 @@ const config = {
 		extend: {
       colors: {
         'subtitle': '#a8a39d',
-        'grey': '#252422',
+        'grey': '#1F1F1E',
         'white': '#f8ecdf',
-        'black': '#121211',
+        'black': '#1a1917',
       },
     },
 	},
