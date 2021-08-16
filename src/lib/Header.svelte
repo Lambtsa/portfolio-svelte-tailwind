@@ -47,6 +47,7 @@
         <img height="30px" width="30px" src={fr_flag} alt="French flag icon with rounded corners" />
       </button>
     </div> -->
+    <a href="/blog">Blog</a>
     <button class="bg-transparent border border-white font-bold hover:bg-green-400 hover:border-green-400 hover:text-black text-sm px-4 py-2 rounded-lg text-white">
       <a href="mailto:hello@tom-lamb.com">Contact me</a>
     </button>
