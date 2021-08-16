@@ -30,8 +30,8 @@
 </script>
 
 <!-- HTML -->
-<header class={`z-50 fixed w-full ${is_scrolled ? 'bg-black bg-opacity-80' : 'bg-transparent'}`}>
-  <nav class="container mx-auto flex justify-between items-center max-w-screen-lg">
+<header class={`w-full appear_ease_in_5s z-50 fixed ${is_scrolled ? 'bg-black bg-opacity-80' : 'bg-transparent'}`}>
+  <nav class="flex justify-between md:mx-auto items-center md:max-w-screen-lg w-full px-4">
     <a href="/">
       <img
         height="60px"
@@ -47,5 +47,8 @@
         <img height="30px" width="30px" src={fr_flag} alt="French flag icon with rounded corners" />
       </button>
     </div> -->
+    <button class="bg-transparent border border-white font-bold hover:bg-green-400 hover:border-green-400 hover:text-black text-sm px-4 py-2 rounded-lg text-white">
+      <a href="mailto:hello@tom-lamb.com">Contact me</a>
+    </button>
   </nav>
 </header>

@@ -1,7 +1,54 @@
 @tailwind base;
 /* Write your global styles here, in PostCSS syntax */
 body {
-  background-color: #121211;
+  background-color: #1a1917;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: 'Share Tech Mono', monospace; 
 }
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+
+@media (min-width: 640px) {
+  #typing {
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  /* Animation */
+  #typing {
+    animation: animated-text 4s steps(30,end) 1s 1 normal both,
+              animated-cursor 600ms steps(30,end) infinite;
+  }
+
+  .appear_ease_in_5s {
+    animation: appear 2s ease-in 5s 1 normal both;
+  }
+
+  .appear_ease_in_10s {
+    animation: appear 2s ease-in 5s 1 normal both;
+  }
+
+  @keyframes appear {
+    from{opacity: 0;}
+    to{opacity: 100%;}
+  }
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: #34D399;}
+  to{border-right-color: transparent;}
+}
