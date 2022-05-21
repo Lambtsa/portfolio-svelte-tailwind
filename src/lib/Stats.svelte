@@ -1,12 +1,12 @@
 <script lang="ts">
-  const stats = [
+  const stats: { title: string, subtitle: string }[] = [
     {
       "title": "Python",
-      "subtitle": "Most recent language I have learned"
+      "subtitle": "Most recent language I started learning"
     },
     {
       "title": "5+",
-      "subtitle": "Number of years of product management"
+      "subtitle": "Number of years working with digital products"
     },
     {
       "title": "4",

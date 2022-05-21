@@ -9,7 +9,6 @@ const config = {
     })],
 
 	kit: {
-		target: '#svelte',
 		appDir: '_app',
     files: {
 			assets: 'src/assets',
@@ -22,6 +21,9 @@ const config = {
 			assets: 'dist',
 			fallback: null
 		}),
+    prerender: {
+      default: true,
+    },
     vite: () => ({
 			resolve: {
 				alias: {
