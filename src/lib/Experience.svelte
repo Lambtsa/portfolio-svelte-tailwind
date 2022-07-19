@@ -25,7 +25,7 @@
           responsible for the in-house global e-commerce platform at Ubiquiti. I work on a
           daily basis with PostgreSQL, Typescript, Graphql, NextJS, Apollo server and
           NodeJS.</p>
-        <a class="text-pink-400 hover:text-pink-600 underline " target="_blank" rel="noreferrer" href="https://www.ui.com/">see company website</a>
+        <a class="text-pink-400 hover:text-pink-600 underline " target="_blank" rel="noreferrer" href="https://www.ui.com/">See company website</a>
       </div>
     </div>
     <div class="flex justify-center items-start gap-4 py-8">
@@ -39,7 +39,7 @@
         <h3 class="text-2xl text-white font-bold">Full-stack Javascript Developer</h3>
         <p class="text-subtitle text-opacity-40">Jan 2021 - Feb 2022</p>
         <p class="text-subtitle">I worked as a full stack javascript developer for Salt in Stockholm. From front ends in ReactJS to databases in Mongo DB, I bring all my experience of product management and UX/UI to all my new projects.</p>
-        <a class="text-pink-400 hover:text-pink-600 underline " target="_blank" rel="noreferrer" href="https://www.salt.dev/">see company website</a>
+        <a class="text-pink-400 hover:text-pink-600 underline " target="_blank" rel="noreferrer" href="https://www.salt.dev/">See company website</a>
       </div>
     </div>
     <div class="flex justify-center items-start gap-4 py-8">
@@ -53,7 +53,7 @@
         <h3 class="text-2xl text-white font-bold">Digital Product Manager</h3>
         <p class="text-subtitle text-opacity-40">Jan 2020 - Dec 2020</p>
         <p class="text-subtitle">As Product manager for Betao's User System/ invoicing tool, I was the bridge between the company's strategic vision and the two main products we created. I was responsible for identifying market needs and competitive opportunities while defining the product strategies, feature roadmaps and enhancing customer experience.</p>
-        <a class="underline text-pink-400 hover:text-pink-600" target="_blank" rel="noreferrer" href="https://www.salt.dev/">see company website</a>
+        <a class="underline text-pink-400 hover:text-pink-600" target="_blank" rel="noreferrer" href="https://www.salt.dev/">See company website</a>
       </div>
     </div>
     <div class="flex justify-center items-start gap-4 py-8">
@@ -67,7 +67,7 @@
         <h3 class="text-2xl text-white font-bold">Digital Product Manager</h3>
         <p class="text-subtitle text-opacity-40">June 2017 - Jan 2020</p>
         <p class="text-subtitle">As a Product Manager for Simplitoo, I was responsible for analysing the market and competitive environment in order to define a clear product vision and growth strategy. In this role I got to move the company to a more user focused organisation, build consensus amongst stakeholders and further develop my technical knowledge in software engineering.</p>
-        <a class="text-pink-400 hover:text-pink-600 underline" target="_blank" rel="noreferrer" href="https://www.salt.dev/">see company website</a>
+        <a class="text-pink-400 hover:text-pink-600 underline" target="_blank" rel="noreferrer" href="https://www.salt.dev/">See company website</a>
       </div>
     </div>
   </div>
