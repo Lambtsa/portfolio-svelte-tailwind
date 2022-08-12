@@ -1,0 +1,22 @@
+{
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "bierner.comment-tagged-templates",
+    "ms-azuretools.vscode-docker",
+    "irongeek.vscode-env",
+    "dbaeumer.vscode-eslint",
+    "shyykoserhiy.git-autoconfig",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "graphql.vscode-graphql",
+    "visualstudioexptteam.vscodeintellicode",
+    "orta.vscode-jest",
+    "yzhang.markdown-all-in-one",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "svelte.svelte-vscode",
+  ],
+}
