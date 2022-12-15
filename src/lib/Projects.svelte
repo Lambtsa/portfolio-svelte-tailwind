@@ -1,8 +1,8 @@
 <script lang="ts">
   import ubiquiti from '$assets/images/ubiquiti.svg';
-  import currency from '$assets/images/currency.svg';
   import charlie from '$assets/images/charlie.svg';
   import tradegard from '$assets/images/tradegard.svg';
+  import audiolinx from '$assets/images/audiolinx.svg';
 
 </script>
 
@@ -19,18 +19,18 @@
         class="mb-2"
         src={ubiquiti}
         alt="" />
-      <h3 class="text-white text-xl font-bold">Reminders App</h3>
-      <p class="text-subtitle">A Reminders app allowing users to add, edit and collaborate on tasks in realtime. Built with ReactJS, Typescript, Socket.io and Beautiful dnd on the client side and ExpressJS, Typescript, Socket.io and MongoDB on the server side.</p>
+        <h3 class="text-white text-xl font-bold">Reminders App</h3>
+        <p class="text-subtitle">A Reminders app allowing users to add, edit and collaborate on tasks in realtime. Built with ReactJS, Typescript, Socket.io and Beautiful dnd on the client side and ExpressJS, Typescript, Socket.io and MongoDB on the server side.</p>
     </a>
-    <a target="_blank" rel="noreferrer" href="https://lambtsa.github.io/currency-app-react/" class="p-8 flex flex-col items-center text-center space-y-2 rounded-2xl hover:bg-white hover:bg-opacity-20">
+    <a target="_blank" rel="noreferrer" href="https://audiolinx.xyz" class="p-8 flex flex-col items-center text-center space-y-2 rounded-2xl hover:bg-white hover:bg-opacity-20">
       <img
         height="60px"
         width="60px"
         class="mb-2"
-        src={currency}
+        src={audiolinx}
         alt="" />
-      <h3 class="text-white text-xl font-bold">Currency App</h3>
-      <p class="text-subtitle">An app to receive updates on the main world currencies including the main cryptocurrencies. Built with ReactJS, ExpressJS and MongoDB and deployed on Github pages (client side) and Heroku (server side).</p>
+      <h3 class="text-white text-xl font-bold">Share Music App</h3>
+      <p class="text-subtitle">A cute little app where you enter an artist and a song title and it will generate urls for that song for the most popular streaming services. Built with Nextjs, typescript and styled components using a Nextjs API.</p>
     </a>
     <a target="_blank" rel="noreferrer" href="https://charlies-closet.com/" class="p-8 flex flex-col items-center text-center space-y-2 rounded-2xl hover:bg-white hover:bg-opacity-20">
       <img
