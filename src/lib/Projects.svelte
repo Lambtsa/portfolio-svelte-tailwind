@@ -30,7 +30,7 @@
         src={audiolinx}
         alt="" />
       <h3 class="text-white text-xl font-bold">Share Music App</h3>
-      <p class="text-subtitle">A cute little app where you enter an artist and a song title and it will generate urls for that song for the most popular streaming services. Built with Nextjs, typescript and styled components using a Nextjs API.</p>
+      <p class="text-subtitle">A cute little app where you enter an artist, a song title or a url and it will generate urls for that song for the most popular streaming services. Built with Nextjs, typescript and styled components using an Express RESTApi.</p>
     </a>
     <a target="_blank" rel="noreferrer" href="https://charlies-closet.com/" class="p-8 flex flex-col items-center text-center space-y-2 rounded-2xl hover:bg-white hover:bg-opacity-20">
       <img
