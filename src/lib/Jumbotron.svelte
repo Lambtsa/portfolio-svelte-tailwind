@@ -11,5 +11,5 @@
       <a href="mailto:hello@tom-lamb.com">Contact me</a>
     </button>
   </div>
-  <SocialMediaIcons />
+  <SocialMediaIcons fadeIn />
 </section>
